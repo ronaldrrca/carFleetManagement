@@ -8,17 +8,3 @@
     color: #fff;
 }
 
-.editImage{
-    width: 2.2rem;
-    cursor: pointer;
-}
-
-.resetImage{
-    width: 2.8rem;
-    cursor: pointer;
-}
-
-.deleteImage{
-    width: 2.8rem;
-    cursor: pointer;
-}

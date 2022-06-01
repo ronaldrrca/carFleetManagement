@@ -111,7 +111,30 @@ nav{
     align-items: flex-start;
     padding: 2rem;
     border: 1px solid #333;
-    /* background-color: purple; */
+}
+
+#vehicle_form{
+    width: 40rem;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #333;
+}
+
+#vehicle_form label{
+    width: 100%;
+}
+
+#vehicle_form input[type="text"],
+#vehicle_form input[type="number"]
+{
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    padding: 0.5rem;
 }
 
 label, 
@@ -141,30 +164,30 @@ select{
 }
 
 #login_form input[type="submit"],
-#editUser_form input[type="submit"]
+#editUser_form input[type="submit"],
+#vehicle_form input[type="submit"]
 {
+    width: 100%;
+    margin: 2rem 0 1rem 0;
     padding: 1.5rem 0;
+    background-color: green;
     color: #fff;
     font-size: 1.6rem;
     border: none;
     cursor: pointer;
 }
 
-#login_form input[type="submit"]{
-    width: 100%;
-    margin: 2rem 0 1rem 0;
-    background-color: green;
+.vehicle_form_itemContainer{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #logoLogin{
     width: 15rem;
     margin-bottom: 4rem;
-}
-
-#editUser_form input[type="submit"]{
-    width:100%;
-    
-    background-color: green;
 }
 
 #editUser_buttons{
@@ -278,6 +301,21 @@ th{
     font-weight: 400;
     text-decoration: underline;
     color: blue;
+}
+
+.editImage{
+    width: 2.2rem;
+    cursor: pointer;
+}
+
+.resetImage{
+    width: 2.8rem;
+    cursor: pointer;
+}
+
+.deleteImage{
+    width: 2.8rem;
+    cursor: pointer;
 }
 
 

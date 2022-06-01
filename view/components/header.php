@@ -19,9 +19,9 @@
         <img id="header_iconMenu" class="header_mobileComponent" src="../../assets/icons/icon_menu.svg" alt="icono de menu">
         <img id="header_closeIcon" class="header_mobileComponent" src="../../assets/icons/close_icon.svg" alt="icono de cerrar el menu">
         <ul id="mobileMenu">
-            <li class="mobileMenu_item"><a href="./home.php">INICIO</a></li>
-            <li class="mobileMenu_item"><a href="./registros.php">REGISTROS</a></li>
-            <li class="mobileMenu_item"><a class="dropItem" href="#">USUARIOS</a>
+            <li class="mobileMenu_item"><a href="home.php">INICIO</a></li>
+            <li class="mobileMenu_item"><a href="registros.php">REGISTROS</a></li>
+            <li class="mobileMenu_item"><a class="dropItem" href="list_users">USUARIOS</a>
                 <ul id="mobileSubMenu">
                     <?php if (isset($_SESSION['Admin'])) { ?>
                     <li class="mobileSubMenu_item"><a href="list_users.php">Administrar usuarios</a></li>
@@ -32,8 +32,8 @@
             </li>
         </ul>
         <ul id="dropDownMenu">
-            <li class="dropDownMenu_item"><a href="./home.php">INICIO</a></li>
-            <li class="dropDownMenu_item"><a href="./registros.php">REGISTROS</a></li>
+            <li class="dropDownMenu_item"><a href="home.php">INICIO</a></li>
+            <li class="dropDownMenu_item"><a href="registros.php">REGISTROS</a></li>
             <li class="dropDownMenu_item">USUARIOS
                 <ul id="dropDownSubMenu">
                     <?php if (isset($_SESSION['Admin'])) { ?>

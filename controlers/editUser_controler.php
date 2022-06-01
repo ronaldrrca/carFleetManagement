@@ -4,7 +4,7 @@ require_once '../model/users.php';
 $id = $_POST['id'];
 $cedula = trim(htmlspecialchars($_POST['cedula']));
 $nombre = trim(htmlspecialchars(strtoupper($_POST['nombre'])));
-$perfil = trim(htmlspecialchars($_POST['perfil']));
+$perfil = trim(htmlspecialchars(strtoupper($_POST['perfil'])));
 
 // echo $id;
 // echo $cedula;

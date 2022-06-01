@@ -15,7 +15,8 @@
     transition: all 0.3s;
 }
 
-.dropDownMenu_item a:hover{
+.dropDownMenu_item a:hover, 
+.dropDownMenu_item:hover{
     color: #33B1FF;
 }
 
