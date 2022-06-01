@@ -9,3 +9,4 @@ document.getElementById("header_closeIcon").addEventListener("click", ()=> {
     document.getElementById("header_closeIcon").style.display = "none"
     document.getElementById("mobileMenu").style.display = "none"
 })
+

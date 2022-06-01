@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['Admin']) && !isset($_SESSION['Standard']) ) {
+    header('Location: login.php');
+} ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +14,7 @@
 </head>
 <body>
     <header>
-        <?php include './componentes/header.php' ?>
+        <?php include '../components/header.php' ?>
     </header>
     <main>
 
@@ -16,6 +22,6 @@
     <footer>
 
     </footer>    
-    <script src="./js/header.js"></script>
+    <script src="../js/header.js"></script>
 </body>
 </html>

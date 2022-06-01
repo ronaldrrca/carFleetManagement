@@ -1,0 +1,24 @@
+.noMobileComponent{
+    display: table-cell;
+}
+
+#header_user{
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.editImage{
+    width: 2.2rem;
+    cursor: pointer;
+}
+
+.resetImage{
+    width: 2.8rem;
+    cursor: pointer;
+}
+
+.deleteImage{
+    width: 2.8rem;
+    cursor: pointer;
+}
